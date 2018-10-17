@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Vue.js - Animation</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+<script src="https://unpkg.com/vue"></script>
+<!-- APP-2 -->
+<!-- <div id="app-2">
+  <span v-bind:title="message">
+  Your mouse over me
+  </span>
+</div> -->
+
+<!-- APP-3 -->
+<!-- <div id="app-3">
+  <span v-if="seen">Видно</span>
+</div> -->
+
+<!-- APP-4 -->
+<!-- <div id="app-4">
+  <button v-on:click="show = !show">
+    Переключить
+  </button>
+  <transition name="fade">
+    <p v-if="show">привет</p>
+  </transition>
+</div> -->
+
+<!-- EXAMPLE1 -->
+<!-- <div id="example-1">
+  <button @click="show = !show">
+    Button
+  </button>
+  <transition name="slide-fade">
+    <p v-if="show">привет</p>
+  </transition>
+</div> -->
+
+<!-- EXAMPLE2 -->
+<!-- <div id="example-2">
+  <button @click="show = !show">Переключить отображение</button>
+  <transition name="bounce">
+    <p v-if="show">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis enim libero, at lacinia diam fermentum id. Pellentesque habitant morbi tristique senectus et netus.</p>
+  </transition>
+</div> -->
+
+<!-- EXAMPLE3 -->
+<!-- <link href="https://cdn.jsdelivr.net/npm/animate.css@3.5.1" rel="stylesheet" type="text/css">
+<div id="example-3">
+  <button @click="show = !show">Переключить отображение</button>
+  <transition name="custon-classes-transition" enter-active-class="animated tada" leave-active-class="animated bounceOutRight">
+    <p v-if="show">Hello world</p>
+  </transition>
+</div> -->
+
+<!-- EXAMPLE4 -->
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.3/velocity.min.js"></script>
+
+<div id="example-4">
+  <button @click="show = !show">
+    Переключить
+  </button>
+  <transition
+    v-on:before-enter="beforeEnter"
+    v-on:enter="enter"
+    v-on:leave="leave"
+    v-bind:css="false"
+  >
+    <p v-if="show">
+      Демо
+    </p>
+  </transition>
+</div> -->
+</body>
+</html>
